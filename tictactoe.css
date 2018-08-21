@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+body{
+    background: linear-gradient(to bottom right,tomato,orangered);
+}
+#mdv{
+    height: 580px;
+    width: 500px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+    background-color: rgba(255, 255, 255, 0.418);
+}
+#playerdetail{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#displayresult{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#dr{
+    color: red;
+    text-align: center;
+    height: 30%;
+    width: 90%;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+#ng{
+
+    height: 25%;
+    width: 60%;
+    outline:none;
+    color: rgb(207, 12, 149);
+    background-color:yellowgreen;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.pdv{
+    height: 80%;
+    width: 45%;
+
+}
+.players{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: mediumaquamarine;
+    line-height: 180%;
+    border-radius: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: blue;
+}
+.psym{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#p1symbol{
+    color: red;
+}
+#p2symbol{
+    color: green;
+}
+#gamedv{
+    height: 392px;
+    width: 392px;;
+    border: 1px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ttt{
+    height: 130px;
+    width: 130px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 40px;
+    color: transparent;
+}
+#a{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#b{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#c{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+#d{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+#e{
+    border: 1px solid black;
+}
+#f{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+#g{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+#h{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#i{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
